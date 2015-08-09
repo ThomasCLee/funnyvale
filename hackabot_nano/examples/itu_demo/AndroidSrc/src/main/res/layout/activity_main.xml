@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView android:text="Hackabot Nano" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textTitle" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forward"
+        android:id="@+id/buttonForward"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/textTitle"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Backward"
+        android:id="@+id/buttonBackward"
+        android:layout_below="@+id/buttonLeft"
+        android:layout_alignLeft="@+id/buttonForward"
+        android:layout_alignStart="@+id/buttonForward" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Left"
+        android:id="@+id/buttonLeft"
+        android:layout_below="@+id/buttonForward"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Right"
+        android:id="@+id/buttonRight"
+        android:layout_above="@+id/buttonBackward"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:id="@+id/textStatus"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/buttonBackward"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect"
+        android:id="@+id/buttonConnect"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/buttonRight"
+        android:layout_alignEnd="@+id/buttonRight" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_below="@+id/textStatus"
+        android:layout_toRightOf="@+id/textTitle"
+        android:layout_toEndOf="@+id/textTitle"
+        android:layout_marginTop="31dp"
+        android:choiceMode="singleChoice" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan"
+        android:id="@+id/buttonScan"
+        android:layout_alignTop="@+id/buttonConnect"
+        android:layout_alignLeft="@+id/buttonForward"
+        android:layout_alignStart="@+id/buttonForward" />
+
+</RelativeLayout>
