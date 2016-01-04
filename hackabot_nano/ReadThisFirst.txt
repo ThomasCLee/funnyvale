@@ -1,0 +1,36 @@
+Thank you for the interest in building a robot using Hackabot Nano.
+
+
+Here are a few pointers. Please read them before trying to put together your robot. Otherwise, you may risk damaging it.
+
+1. Arduino basics
+   If it is your first time using Arduino (or compatible) controllers, please visit Arduino.cc first.
+
+2. Overview of Hackabot Nano. This shows you various connectors on the main PCB (Fabric Shield)
+	   
+   http://hackarobot.com/overview-of-the-fabric-shield-rev1-0/
+
+3. Pin Assignments
+
+   This shows you the pins that are used for various sensors and motors.
+   http://hackarobot.com/hackabot-nano-pin-assignments/
+
+4. Identifying the sensors
+ 
+   http://hackarobot.com/hackabot-nano-loaded-with-many-sensors/
+
+   Where to buy the parts:
+   http://hackarobot.com/sensors-and-etc-for-hackabot-nano/
+
+5. Example code:
+
+   Instructables:
+   http://www.instructables.com/id/How-to-control-DC-motors-using-Arduino/
+   http://www.instructables.com/id/Arduino-Robot-that-avoids-human/
+
+   Code repository:
+   https://github.com/ThomasCLee/funnyvale/tree/master/hackabot_nano
+
+
+
+
