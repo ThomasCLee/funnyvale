@@ -4,7 +4,7 @@
 
 long  firstTime=millis();
 
-// sample and post temerapture about every 2 minutes
+// sample and post temperature about every 2 minutes
 #define sampleInterval 120
 
 // temperature sensor timeout in 3 seconds
