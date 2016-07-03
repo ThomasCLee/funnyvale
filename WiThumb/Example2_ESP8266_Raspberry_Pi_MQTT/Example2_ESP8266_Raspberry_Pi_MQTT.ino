@@ -1,5 +1,5 @@
 /***************************************************************************************************
- * This sample code is designed WiThumb.
+ * This sample code is designed for WiThumb.
  * https://www.kickstarter.com/projects/hackarobot/withumb-arduino-compatible-wifi-usb-thumb-imu
  * 
  * 
