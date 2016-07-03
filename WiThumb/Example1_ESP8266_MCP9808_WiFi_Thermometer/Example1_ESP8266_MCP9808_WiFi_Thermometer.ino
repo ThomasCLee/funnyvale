@@ -1,3 +1,20 @@
+/***************************************************************************************************
+ * This sample code is designed for WiThumb.
+ * https://www.kickstarter.com/projects/hackarobot/withumb-arduino-compatible-wifi-usb-thumb-imu
+ * 
+ * 
+ * In this example, WiThumb is programmed as a MQTT client publishing topic 'temperature'
+ * 
+ * It requires the following library. Please install it before compiling this.
+ *     https://github.com/adafruit/Adafruit_MCP9808_Library
+ * 
+ * For more information about WiThumb, please check out our web site:
+ * http://www.hackarobot.com
+ * 
+ * Comments, questions? Please check out our Google+ community:
+ * https://plus.google.com/u/0/communities/111064186308711245928
+ * 
+ **************************************************************************************************/
 #include <Wire.h>
 #include <ESP8266WiFi.h>
 #include "Adafruit_MCP9808.h"
