@@ -75,14 +75,10 @@ void setup() {
   Serial.println("\n-----------------------------------------\n");
   Serial.println("REBOOT");
   Wire.begin();
-  
+  delay(300); 
   temperatureTest(10);
-  // join I2C bus (I2Cdev library doesn't do this automatically)
-  #if I2CDEV_IMPLEMENTATION == I2CDEV_ARDUINO_WIRE
-     Wire.begin();
-  #elif I2CDEV_IMPLEMENTATION == I2CDEV_BUILTIN_FASTWIRE
-     Fastwire::setup(400, true);
-  #endif
+
+  delay(300); 
   // initialize device
   Serial.println("Initializing I2C devices...");
   accelgyro.initialize();
